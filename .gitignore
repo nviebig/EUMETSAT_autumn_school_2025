@@ -80,3 +80,4 @@ dust-monitoring/__pycache__/
 # --- Git safety ---
 *.orig
 *.rej
+.ipynb_checkpoints/
