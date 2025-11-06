@@ -1,0 +1,82 @@
+# ------------------------------------------------------------
+# EUMETSAT Autumn School 2025 — .gitignore
+# ------------------------------------------------------------
+
+# --- Python cache & virtual environments ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+.eggs/
+env/
+venv/
+.venv/
+
+# --- Jupyter and notebooks ---
+.ipynb_checkpoints/
+*.ipynb_convert/
+*.nbconvert.ipynb
+
+# --- Logs & temp files ---
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+*.lock
+
+# --- macOS clutter ---
+.DS_Store
+.Trashes
+.AppleDouble
+.LSOverride
+
+# --- Data folders (large raw or intermediate files) ---
+data/
+temp/
+out/
+output/
+cache/
+*.gz
+*.zip
+*.tar
+*.tar.gz
+*.hdf
+*.h5
+*.nc
+*.nc4
+*.cdf
+
+# --- Images & plots ---
+*.png
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+*.pdf
+
+# --- IDE & editor metadata ---
+.vscode/
+.idea/
+
+# --- Scripts and generated artifacts ---
+setup_autumn_school.sh
+*.old
+*.backup
+*.autosave
+
+# --- Specific school artifacts ---
+Lab*/__pycache__/
+Lab*/results/
+Lab*/temp/
+fire-monitoring/__pycache__/
+lsa-saf/__pycache__/
+HSAF/__pycache__/
+dust-monitoring/__pycache__/
+
+# --- Git safety ---
+*.orig
+*.rej
